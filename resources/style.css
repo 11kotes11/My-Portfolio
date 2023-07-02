@@ -83,13 +83,9 @@ section {
 }
 
 .achievments {
-    width: 3rem;
+    width: 35px;
+    height: 35px;
     margin-left: 1em;
-}
-
-.icons p {
-    margin-left: 3px;
-    font-size: 12px;
 }
 
 /*Featured*/
