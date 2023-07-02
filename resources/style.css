@@ -5,6 +5,9 @@ html, body {
     font-size: 20px;
 }
 
+h2 {
+    font-size: 18px;
+}
 
 /*Navigation*/
 nav {
@@ -24,8 +27,9 @@ nav {
 }
 
 .links {
-    position: fixed;
-    right: 3rem;
+    position: absolute;
+    float: right;
+    right: 1rem;
 }
 
 .button {
@@ -36,4 +40,81 @@ nav {
     text-decoration: none;
     padding: 10px;
     margin: 10px;
+}
+
+/*Body*/
+main {
+    width: 98%;
+    height: 30em;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    row-gap: 1em;
+}
+
+section {
+    width: 98%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/*About Me*/
+.about {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 4em;
+
+}
+
+.photo {
+    border: 2px solid black;
+    margin: 1em;
+}
+
+.text {
+    margin-right: 1em;
+}
+
+.icons {
+    display: flex;
+}
+
+.achievments {
+    width: 3rem;
+    margin-left: 1em;
+}
+
+.icons p {
+    margin-left: 3px;
+    font-size: 12px;
+}
+
+/*Featured*/
+.featured {
+    padding-bottom: 1em;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featureimg {
+    margin: 1em 1em 0 1em;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.featured h1 {
+    text-align: center;
+    margin: 1em 1em 0 1em;
+}
+
+.subtitle {
+    margin: 0 1em 0 1em;
+    padding-left: 2px;
 }
