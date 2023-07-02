@@ -1,3 +1,39 @@
+/*Global*/
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+
+/*Navigation*/
 nav {
-    display: block;
-  }
+    height: 4rem;
+    width: 98%;
+    margin: 1rem auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.links {
+    position: fixed;
+    right: 3rem;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    border: black 2px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
