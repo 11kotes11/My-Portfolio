@@ -29,7 +29,7 @@ nav {
 .links {
     position: absolute;
     float: right;
-    right: 1rem;
+    right: 2rem;
 }
 
 .button {
@@ -103,6 +103,10 @@ section {
     flex-wrap: wrap;
 }
 
+.flex a {
+    text-decoration: none;
+}
+
 .featureimg {
     margin: 1em 1em 0 1em;
     border: 2px black solid;
@@ -117,4 +121,5 @@ section {
 .subtitle {
     margin: 0 1em 0 1em;
     padding-left: 2px;
+    color: black;
 }
