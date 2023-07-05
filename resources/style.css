@@ -18,39 +18,7 @@ a {
 }
 
 /*Navigation*/
-.hamburger {
-    display: inline-block;
-    cursor: pointer;
-    position: fixed;
-    top: 30px;
-    right: 60px;
-}
 
-.hamburger:hover {
-    opacity: 50%;
-}
-  
-.bar1, .bar2, .bar3 {
-    width: 70px;
-    height: 10px;
-    background-color: white;
-    margin: 8px 0;
-    transition: 0.4s;
-}
-  
-.change .bar1 {
-    transform: translate(0px, 18px) rotate(-45deg);
-}
-  
-.change .bar2 {opacity: 0;}
-  
-.change .bar3 {
-    transform: translate(0, -18px) rotate(45deg);
-}
-
-nav {
-    visibility: hidden;
-}
 
 /*Hero*/
 .hero {
@@ -121,33 +89,43 @@ section {
     margin-bottom: 0px;
 }
 
-.grid {
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(6, 100px);
-    column-gap: 30px;
-}
-
-.grid h2 {
-    grid-column: 1/9;
+/* About */
+.about {
     text-align: center;
-    margin: 0px;
 }
 
-.grid img {
-    grid-area: 3 / 2 / span 2 / span 3;
-    justify-self: center;
-
+.portrait {
+    clip-path: circle(50% at 50% 50%);
+    margin-bottom: 1em;
+    width: 350px;
+    border: 5px solid yellow;
+    border-radius: 100%;
 }
 
-.grid .p1 {
-    border: 2px solid yellow;
-    border-radius: 1em;
-    height: 100%;
-    margin: 0px;
-    grid-area: 3 / 5 / span 2 / span 4;
-    display: flex;
-    padding: 15px;
+.about h2 {
+    margin-top: 0;
+}
+
+.about p {
+    width: 60%;
+    margin: 0 auto 1em;
+    padding: 0 1em;
+}
+
+.about p b {
+    color: yellow;
+}
+
+.about hr {
+    width: 80%;
+}
+
+.skill {
+    margin: 0.6em 0.5em;
+    transition: all 100ms;
+}
+
+.skill:hover {
+    transform: scale(130%);
+    transform: translateY(-1em);
 }
