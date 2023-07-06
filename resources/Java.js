@@ -1,3 +1,3 @@
-function menuTransform(x) {
-    x.classList.toggle("change");
+function hideSkill(x) {
+    x.classList.toggle("hidden");
   }
