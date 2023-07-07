@@ -33,11 +33,12 @@ nav {
 .logo {
     font-size: 2em;
     color: yellow;
-    margin: 0 1em 0;
+    margin-left: 1em;
 }
 
 nav ul {
     margin-right: 1em;
+    padding: 0px;
 }
 
 .button {
@@ -68,6 +69,10 @@ nav ul {
 
 .subtitle {
     font-size: 1.5em;
+}
+
+.b {
+    display: none;
 }
 
 .down-arrow {
@@ -157,6 +162,7 @@ section {
 
 .favicons {
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
     margin: auto;
     justify-content: center;
@@ -199,4 +205,52 @@ form {
 input, textarea {
     width: 95%;
     border-radius: 0.5em;
+}
+
+/*media-queries*/
+@media screen and (max-device-width: 750px) {
+    .button {
+        margin: 0.5em;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-device-width: 650px) {
+    .logo {
+        font-size: 1em;
+    }
+
+    .button {
+        font-size: 0.8em;
+        margin: 0.2em;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    .a {
+        display: none;
+    }
+
+    .b {
+        display: block;
+    }
+}
+
+@media screen and (max-device-width: 420px) {
+    .logo {
+        display: none;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .subtitle {
+        font-size: 1em;
+    }
 }
