@@ -44,7 +44,7 @@ nav ul {
 .button {
     padding: 0.5em;
     border: 2px yellow solid;
-    border-radius: 1em;;
+    border-radius: 1em;
     margin: 1em;
     color: white;
     transition: all 750ms linear;
