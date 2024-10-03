@@ -176,9 +176,23 @@ section {
     width: 90px;
 }
 
+.skill a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.skill a:visited {
+    color: inherit;
+}
+
+.skill img:hover {
+    width: 95px;
+}
+
 .skill img {
     width: 60px;
 }
+
 
 .skill p {
     font-size: 0.8em;
